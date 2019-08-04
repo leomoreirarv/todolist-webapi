@@ -1,0 +1,25 @@
+{
+  "name": "todolist-webapi",
+  "version": "0.0.1",
+  "description": "Todo's list web api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "node build/app.js",
+    "run:dev": "NODE_ENV=development nodemon build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
